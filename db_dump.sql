@@ -59,8 +59,6 @@ INSERT INTO domainlist VALUES(45,3,'(\.|^)harrahs\.org$',1,1630441272,1695341069
 INSERT INTO domainlist VALUES(46,2,'(\.|^)go\.usa\.gov$',1,1651514405,1651514405,NULL);
 INSERT INTO domainlist VALUES(47,0,'trace.svc.ui.com',1,1664151847,1664151847,'Added from Query Log');
 INSERT INTO domainlist VALUES(48,0,'nfl.hb.omtrdc.net',1,1664152076,1664152076,'Added from Query Log');
-INSERT INTO domainlist VALUES(49,0,'camsoda.com',1,1671348437,1671348437,NULL);
-INSERT INTO domainlist VALUES(50,0,'www.camsoda.com',1,1671348732,1671348732,NULL);
 INSERT INTO domainlist VALUES(52,2,'(\.|^)harrahs\.org$',1,1695341069,1695341069,NULL);
 INSERT INTO domainlist VALUES(53,0,'app.adjust.com',1,1699693168,1699693168,'Added from Query Log');
 CREATE TABLE adlist
@@ -117,8 +115,6 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(31,45,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(32,46,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(33,47,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(34,48,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(35,49,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(36,50,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(37,52,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(38,53,0);
 COMMIT;
