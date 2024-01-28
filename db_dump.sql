@@ -62,9 +62,6 @@ INSERT INTO domainlist VALUES(48,0,'nfl.hb.omtrdc.net',1,1664152076,1664152076,'
 INSERT INTO domainlist VALUES(52,2,'(\.|^)harrahs\.org$',1,1695341069,1695341069,NULL);
 INSERT INTO domainlist VALUES(53,0,'app.adjust.com',1,1699693168,1699693168,'Added from Query Log');
 INSERT INTO domainlist VALUES(54,2,'(\.|^)youtube\.com$',1,1705363201,1705363201,'youtube bypass');
-INSERT INTO domainlist VALUES(55,0,'click.justwatch.com',1,1706319402,1706319402,'Added from Query Log');
-INSERT INTO domainlist VALUES(56,0,'www.jdoqocy.com',1,1706319434,1706319434,'Added from Query Log');
-INSERT INTO domainlist VALUES(57,0,'www.emjcd.com',1,1706319447,1706319447,'Added from Query Log');
 CREATE TABLE adlist
 (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -122,7 +119,4 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(34,48,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(35,52,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(36,53,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(37,54,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(38,55,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(39,56,0);
-INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(40,57,0);
 COMMIT;
